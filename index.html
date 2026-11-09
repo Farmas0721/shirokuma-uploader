@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>shirokuma-uploader</title>
+<style>
+  :root { --bg: #fdfcf8; --fg: #333; --sub: #666; --link: #2a6fb0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1d1b; --fg: #eee; --sub: #aaa; --link: #8cc4ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; line-height: 1.8; }
+  main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.1rem; margin-top: 2em; }
+  a { color: var(--link); } p.sub { color: var(--sub); }
+</style>
+</head>
+<body>
+<main>
+  <h1>shirokuma-uploader</h1>
+  <p>しろくまチャンネル（0〜3歳向けの知育動画チャンネル）の運営者が、自分の YouTube チャンネルに動画をアップロードするために使う個人用ツールです。一般向けのサービスではありません。</p>
+  <p class="sub">shirokuma-uploader is a personal tool used only by the owner of the Shirokuma Channel to upload videos to their own YouTube channel. It is not a public service.</p>
+
+  <h2>利用する Google の権限 / Google API scope</h2>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code> — 自分のチャンネルへの動画・サムネイルのアップロードのみ</li>
+  </ul>
+
+  <p><a href="privacy.html">プライバシーポリシー / Privacy Policy</a></p>
+</main>
+</body>
+</html>
